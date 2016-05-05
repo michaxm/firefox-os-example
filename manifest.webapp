@@ -1,0 +1,19 @@
+{
+    "name": "hello",
+    "description": "TODO",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/icon.png"
+    },
+    "developer": {
+        "name": "",
+        "url": ""
+    },
+    "type": "privileged",
+    "permissions": {
+        "device-storage:sdcard": {
+            "description": "for reading map data",
+            "access": "readwrite"
+        }
+    }
+}
